@@ -15,7 +15,7 @@ I successfully completed a comprehensive Frontend Development course focused on:
 - Tailwind CSS & Bootstrap
 - JavaScript (ES6+)
 - DOM Manipulation
-- API Integration (Fetch)
+- API Integration (Axios)
 - React.js (Components, Hooks, Routing, State Management)
 - Next.js (Routing, API Routes, Basic SSR Concepts)
 
