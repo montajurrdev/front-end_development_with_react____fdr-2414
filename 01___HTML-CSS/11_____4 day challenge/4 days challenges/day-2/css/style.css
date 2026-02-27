@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    /* height: 900px; */
+    background: greenyellow;
+    padding: 10px 0 40px;
+}
+.img{
+    display: flex;
+    /* background: rgb(191, 199, 191); */
+    
+}
+.img1{
+
+    margin: 0 10px 10px 10px;
+    height: 400px;
+    width: 40%;
+    /* padding: 200px 0; */
+    background:url(../img/1.jpg);
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+    display: grid; 
+    align-items: center; 
+    font-size: 20px;
+    font-style: italic;
+    color: rgb(204, 185, 223);
+    text-align: center;
+}
+.img1 h3{
+    color: tomato;
+    font-size: 30px;
+}
+/* or display:flex + align-items: center;  */
+
+.img2{
+
+    margin: 0 10px 10px 10px;
+    /* height: 400px; */
+    width: 40%;
+    padding: 200px 0;
+    background:url(../img/2.jpg);
+    /* padding: 0 100px; */
+    background-repeat: round;
+    /* background-position: center; */
+    /* background-size: cover; */
+    /* float: right; */
+
+    color: #fff;
+    text-align: center;
+    
+    
+    
+}
+.img2 h3{
+    color: tomato;
+    font-size: 30px;
+}
+.img3{
+    margin: 0 auto;
+    width: 80%;
+
+   
+    
+    background:url(../img/1.jpg);
+    /* padding: 0 100px; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.overly{
+    
+    /* height: 800px; */
+    
+    padding: 400px 0;
+    background: rgba(0, 128, 0,0.5);
+    
+}
+.overly h3{
+    text-align: center;
+    text-transform: uppercase;
+    color:tomato;
+    font-size: 30px;
+    font-style: italic;
+}
+
+/* padding sobsomoy height k dibo,because jekono div tar parent div er width niye ney,kintu height ney na
+overly er jonno background color rgba te nite hobe  */

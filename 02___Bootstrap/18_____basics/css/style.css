@@ -1,0 +1,52 @@
+/* All Common Css Start  */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+a,a:hover{
+    text-decoration: none;
+    display: inline-block;
+}
+ul,ol{
+    list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6,a,span,p{
+    line-height: 0.8;
+}
+
+/* All Common Css End  */
+
+/* Headerpart css start  */
+#headerpart{
+    padding: 40px 0;
+    background: teal;
+}
+h1{
+    background: tomato;
+    
+
+}
+.nav-link{
+    font-size: 30px;
+    font-weight: 700;
+    color: blueviolet;
+    text-transform: uppercase;
+    padding: 0 40px !important;
+}
+.nav-link:hover{
+    color: blue;
+}
+/* Headerpart css end  */
+
+/* Headerpart css start  */
+/* Headerpart css end  */
+
+/* Headerpart css start  */
+/* Headerpart css end  */
+
+/* Headerpart css start  */
+/* Headerpart css end  */
+
+/* Headerpart css start  */
+/* Headerpart css end  */

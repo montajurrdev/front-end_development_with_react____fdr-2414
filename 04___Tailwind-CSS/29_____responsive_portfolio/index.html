@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Londrina+Outline&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Playwrite+DE+VA:wght@100..400&family=Playwrite+IT+Moderna&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/all.min.css" />
+    <link rel="stylesheet" href="src/output.css" />
+  </head>
+  <body class="bg-white">
+    <!-- Header_Part Start -->
+    <section>
+      <div class="max-w-mContainer m-auto py-3">
+        <div class="navbar">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+              >
+                <li>
+                  <a
+                    href="#"
+                    class="px-6 font-pop text-[14px] hover:text-mhover duration-300 ease-in-out"
+                    >HOME</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#about_part"
+                    class="px-6 font-pop text-[14px] hover:text-mhover duration-300 ease-in-out"
+                    >ABOUT US</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#service_part"
+                    class="px-6 font-pop text-[14px] hover:text-mhover duration-300 ease-in-out"
+                    >SERVICES</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#portfolio"
+                    class="px-6 font-pop text-[14px] hover:text-mhover duration-300 ease-in-out"
+                    >WORKS</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#contact"
+                    class="px-6 font-pop text-[14px] hover:text-mhover duration-300 ease-in-out"
+                    >CONTACT</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <a href="#" class="text-xl">
+              <img src="images/logo.png" alt="logo.png" />
+            </a>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+              <li>
+                <a
+                  href="#"
+                  class="px-6 font-pop text-[14px] hover:text-mhover duration-300 ease-in-out"
+                  >HOME</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#about_part"
+                  class="px-6 font-pop text-[14px] hover:text-mhover duration-300 ease-in-out"
+                  >ABOUT US</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#service_part"
+                  class="px-6 font-pop text-[14px] hover:text-mhover duration-300 ease-in-out"
+                  >SERVICES</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#portfolio"
+                  class="px-6 font-pop text-[14px] hover:text-mhover duration-300 ease-in-out"
+                  >WORKS</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#contact"
+                  class="px-6 font-pop text-[14px] hover:text-mhover duration-300 ease-in-out"
+                  >CONTACT</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="navbar-end">
+            <a
+              href="mailto:montajurrahmanmonir@gmail.com"
+              target="_blank"
+              class="px-5 py-2.5 text-white text-[14px] font-pop font-medium bg-mcolor rounded-3xl hover:bg-mhover duration-300 ease-in-out"
+              >HIRE ME <i class="fa-regular fa-envelope ml-1.5"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Header_Part End -->
+    <!-- <section>
+      <div class="max-w-mContainer m-auto flex justify-between">
+        <div class="card bg-base-100 image-full w-96 shadow-sm ">
+          <figure>
+            <img
+              src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+              alt="Shoes"
+            />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title m-auto">Card Title</h2>
+            <p class=" text-center">
+              A card component has a figure, a body part, and inside body there
+              are title and actions parts
+            </p>
+            <div class="card-actions justify-end">
+              <button class="btn btn-primary m-auto">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="card bg-base-100 image-full w-96 shadow-sm">
+          <figure>
+            <img
+              src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+              alt="Shoes"
+            />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">Card Title</h2>
+            <p>
+              A card component has a figure, a body part, and inside body there
+              are title and actions parts
+            </p>
+            <div class="card-actions justify-end">
+              <button class="btn btn-primary">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="card bg-base-100 image-full w-96 shadow-sm">
+          <figure>
+            <img
+              src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+              alt="Shoes"
+            />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">Card Title</h2>
+            <p>
+              A card component has a figure, a body part, and inside body there
+              are title and actions parts
+            </p>
+            <div class="card-actions justify-end">
+              <button class="btn btn-primary">Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- Banner_Part Start -->
+    <section class="bg-sectionColor">
+      <div
+        class="lg:max-w-mContainer m-auto lg:flex text-center max-w-mobContainer"
+      >
+        <div class="lg:w-2/5 lg:pt-[120px] pt-[60px]">
+          <h4
+            class="text-[16px] font-pop font-medium text-mcolor tracking-[2px]"
+          >
+            DAVID FLASH
+          </h4>
+          <h1
+            class="lg:text-[50px] text-[30px] font-pop font-bold text-h1 lg:leading-20 lg:w-[480px] lg:pt-10 pb-16"
+          >
+            Hello, my name’s Montajur Rahman. I’m web developer.
+          </h1>
+          <a
+            href="tel:+8801310951801"
+            class="px-10 py-6 bg-mcolor rounded-[50px] lg:inline-block text-white text-[14px] font-pop font-medium block w-[220px] m-auto"
+            ><i class="fa-regular fa-envelope mr-1.5"></i> CONTACT ME</a
+          >
+          <a
+            href="https://drive.google.com/file/d/1y-qKhxBqJXnhDrddu8Kt-nHTF5CnAL3S/view?usp=sharing"
+            target="_blank"
+            class="px-10 py-6 rounded-[50px] lg:inline-block text-h1 text-[14px] font-pop font-medium block w-[220px] m-auto"
+            ><i class="fa-solid fa-download mr-1.5"></i>DOWNLOAD CV</a
+          >
+        </div>
+        <div class="lg:w-3/5 pt-[30px] relative">
+          <img src="images/avatar.png" alt="avatar.png" class="" />
+          <div class="">
+            <img
+              src="images/developer2.png"
+              alt="developer2.png"
+              class="lg:w-[530px] lg:h-[475px] w-[306px] h-[135px] absolute lg:top-[46%] top-[48%] lg:left-[56%] left-[59%] -translate-1/2 rounded-[174px]"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Banner_Part End -->
+
+    <!-- Experience_Part Start -->
+    <section>
+      <div
+        class="lg:pt-[90px] pt-[70px] lg:max-w-mContainer max-w-mobContainer lg:px-20 m-auto flex flex-wrap justify-between"
+      >
+        <div class="project text-center w-1/2 lg:w-1/4 lg:p-0 py-5">
+          <h1 class="lg:text-[48px] text-[35px] font-pop font-semibold">
+            <span class="counter">100</span>+
+          </h1>
+          <h3
+            class="lg:text-[16px] text-[14px] font-pop font-medium text-[#121212]"
+          >
+            PROJECTS
+          </h3>
+        </div>
+        <div class="AWARD text-center w-1/2 lg:w-1/4 lg:p-0 py-5">
+          <h1 class="lg:text-[48px] text-[35px] font-pop font-semibold">
+            <span class="counter">24</span>
+          </h1>
+          <h3
+            class="lg:text-[16px] text-[14px] font-pop font-medium text-[#121212]"
+          >
+            WINNING AWARD
+          </h3>
+        </div>
+        <div class="CLIENTS text-center w-1/2 lg:w-1/4">
+          <h1 class="lg:text-[48px] text-[35px] font-pop font-semibold">
+            <span class="counter">70</span>+
+          </h1>
+          <h3
+            class="lg:text-[16px] text-[14px] font-pop font-medium text-[#121212]"
+          >
+            HAPPY CLIENTS
+          </h3>
+        </div>
+        <div class="EXPERIENCE text-center w-1/2 lg:w-1/4">
+          <h1 class="lg:text-[48px] text-[35px] font-pop font-semibold">
+            <span class="counter">10</span>
+          </h1>
+          <h3
+            class="lg:text-[16px] text-[14px] font-pop font-medium text-[#121212]"
+          >
+            YEAR EXPERIENCE
+          </h3>
+        </div>
+      </div>
+    </section>
+    <!-- Experience_Part End -->
+
+    <!-- Service_Part Start -->
+    <section id="service_part">
+      <div
+        class="lg:pt-[140px] pt-[100px] lg:max-w-mContainer max-w-mobContainer m-auto"
+      >
+        <div class="heading text-center">
+          <h5
+            class="lg:text-[16px] text-[14px] font-pop font-medium text-mcolor tracking-[2px]"
+          >
+            SERVICES
+          </h5>
+          <h2 class="lg:text-[44px] text-[30px] font-pop font-semibold py-3">
+            What I Do For My Customer.
+          </h2>
+          <p
+            class="lg:text-[16px] text-[14px] font-pop text-[#121212] lg:leading-8 leading-5 lg:w-[600px] w-full m-auto"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae
+            blandit lectus. Praesent at hendrerit velit, at dictum nisl.
+          </p>
+        </div>
+        <div
+          class="service_content lg:mt-16 mt-6 pb-8 lg:flex lg:justify-between"
+        >
+          <!-- bg-[#F1F0FB] -->
+          <div
+            class="content bg-white text-center rounded-3xl py-[50px] px-[70px] drop-shadow-monir"
+          >
+            <i
+              class="fa-brands fa-uikit lg:text-[30px] text-[25px] text-mcolor"
+            ></i>
+            <h4
+              class="lg:text-[20px] text-[18px] font-pop font-medium lg:pt-[50px] pt-[30px] pb-[12px]"
+            >
+              UI/UX Design
+            </h4>
+            <p
+              class="lg:text-[16px] text-[14px] font-pop text-[#121212] lg:leading-8 leading-5 w-[230px]"
+            >
+              lorem ipsum dolor sit amet consectur adi pising leo
+            </p>
+          </div>
+          <div
+            class="content bg-white text-center rounded-3xl py-[50px] px-[70px] drop-shadow-monir gap-x-3"
+          >
+            <i
+              class="fa-solid fa-cube lg:text-[30px] text-[25px] text-mcolor"
+            ></i>
+            <h4
+              class="lg:text-[20px] text-[18px] font-pop font-medium lg:pt-[50px] pt-[30px] pb-[12px]"
+            >
+              Product Design
+            </h4>
+            <p
+              class="lg:text-[16px] text-[14px] font-pop text-[#121212] lg:leading-8 leading-5 w-[230px]"
+            >
+              lorem ipsum dolor sit amet consectur adi pising leo
+            </p>
+          </div>
+          <div
+            class="content bg-white text-center rounded-3xl py-[50px] px-[70px] drop-shadow-monir"
+          >
+            <i
+              class="fa-regular fa-eye lg:text-[30px] text-[25px] text-mcolor"
+            ></i>
+
+            <h4
+              class="lg:text-[20px] text-[18px] font-pop font-medium lg:pt-[50px] pt-[30px] pb-[12px]"
+            >
+              Motion Graphics
+            </h4>
+            <p
+              class="lg:text-[16px] text-[14px] font-pop text-[#121212] lg:leading-8 leading-5 w-[230px]"
+            >
+              lorem ipsum dolor sit amet consectur adi pising leo
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Service_Part End -->
+
+    <!-- About_Part Start -->
+    <section id="about_part" class="bg-sectionColor">
+      <div
+        class="lg:mt-32 mt-10 lg:pt-24 pt-16 pb-28 p lg:max-w-mContainer max-w-mobContainer m-auto text-center lg:text-left"
+      >
+        <h4 class="text-[16px] font-pop text-mcolor font-medium">
+          GRAPHIC DESIGNER
+        </h4>
+        <h2
+          class="lg:text-[60px] text-[40px] font-pop font-bold text-h1 lg:w-[480px] lg:leading-20 py-5"
+        >
+          Graphic Designer With 1.5 Years Of Experience.
+        </h2>
+        <p class="text-[16px] font-pop text-h1 lg:w-[580px] leading-8">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae
+          blandit lectus. Praesent at hendrerit velit, at dictum nisl.
+        </p>
+        <a
+          href="tel:+8801310951801"
+          class="text-[14px] font-pop text-white bg-mcolor px-10 py-6 rounded-[50px] inline-block mt-9"
+          ><i class="fa-regular fa-envelope mr-2"></i>CONTACT ME</a
+        >
+      </div>
+    </section>
+    <!-- About_Part End -->
+
+    <!-- Logo_Part Start -->
+    <section>
+      <div
+        class="lg:max-w-mContainer max-w-mobContainer m-auto lg:mt-32 mt-20 flex justify-between px-5 flex-wrap gap-y-5"
+      >
+        <div class="w-1/2 lg:w-1/4">
+          <img
+            src="images/logoipsum-logo-1.png"
+            alt="logoipsum-logo-1.png"
+            class="bg-[rgba(0,0,0,0.5)] rounded-[10px] m-auto lg:size-max w-[90%] h-[90%]"
+          />
+        </div>
+        <div class="w-1/2 lg:w-1/4">
+          <img
+            src="images/logoipsum-logo-3.png"
+            alt="logoipsum-logo-3.png"
+            class="bg-[rgba(0,0,0,0.5)] rounded-[10px] m-auto lg:size-max w-[90%] h-[90%]"
+          />
+        </div>
+        <div class="w-1/2 lg:w-1/4">
+          <img
+            src="images/logoipsum-logo-6.png"
+            alt="logoipsum-logo-6.png"
+            class="bg-[rgba(0,0,0,0.5)] rounded-[10px] m-auto lg:size-max w-[90%] h-[90%]"
+          />
+        </div>
+        <div class="w-1/2 lg:w-1/4">
+          <img
+            src="images/logoipsum-logo-7.png"
+            alt="logoipsum-logo-7.png"
+            class="bg-[rgba(0,0,0,0.5)] rounded-[10px] m-auto lg:size-max w-[90%] h-[90%]"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- Logo_Part End -->
+
+    <!-- Portfolio_Part Start -->
+    <section id="portfolio">
+      <div class="lg:max-w-mContainer max-w-mobContainer m-auto lg:mt-40 mt-32">
+        <div class="heading lg:flex lg:justify-between">
+          <div class="left lg:text-left text-center">
+            <h4
+              class="text-[16px] font-pop font-medium text-mcolor tracking-letterS"
+            >
+              PORTFOLIO
+            </h4>
+            <h2 class="text-[44px] font-pop font-semibold pt-2">
+              Selected Works.
+            </h2>
+          </div>
+          <div class="right">
+            <p
+              class="lg:text-[16px] text-[14px] font-pop text-[#121212] lg:leading-8 leading-5 lg:w-[520px] lg:pt-6 pt-2 lg:text-left text-center"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+              vitae blandit lectus. Praesent at hendrerit velit, at dictum nisl.
+            </p>
+          </div>
+        </div>
+        <div
+          class="content_part mt-14 mb-16 bg-[#F5F5F5] lg:flex lg:justify-between lg:flex-wrap rounded-2xl"
+        >
+          <div class="content mb-10 rounded-4xl drop-shadow-monir">
+            <a href="#">
+              <img src="images/work.png" alt="work.png" class="size-fit" />
+            </a>
+            <div
+              class="lg:pl-10 pl-5 lg:pb-11 pb-5 pt-8 bg-white rounded-b-3xl"
+            >
+              <h3 class="text-[20px] font-pop font-medium">
+                Creativa - Elementor Template Kit
+              </h3>
+              <h4
+                class="text-[16px] font-pop font-medium text-[rgba(0,0,0,0.5)] pt-2"
+              >
+                UI/UX Design
+              </h4>
+            </div>
+          </div>
+          <div class="content mb-10 rounded-4xl drop-shadow-monir">
+            <a href="#">
+              <img src="images/work.png" alt="work.png" />
+            </a>
+            <div
+              class="lg:pl-10 pl-5 lg:pb-11 pb-5 pt-8 bg-white rounded-b-3xl"
+            >
+              <h3 class="text-[20px] font-pop font-medium">
+                Nusapp - Elementor Template Kit
+              </h3>
+              <h4
+                class="text-[16px] font-pop font-medium text-[rgba(0,0,0,0.5)] pt-2"
+              >
+                UI/UX Design
+              </h4>
+            </div>
+          </div>
+          <div class="content mb-10 rounded-4xl drop-shadow-monir">
+            <a href="#">
+              <img src="images/work.png" alt="work.png" />
+            </a>
+            <div
+              class="lg:pl-10 pl-5 lg:pb-11 pb-5 pt-8 bg-white rounded-b-3xl"
+            >
+              <h3 class="text-[20px] font-pop font-medium">
+                Webina - Elementor Template Kit
+              </h3>
+              <h4
+                class="text-[16px] font-pop font-medium text-[rgba(0,0,0,0.5)] pt-2"
+              >
+                UI/UX Design
+              </h4>
+            </div>
+          </div>
+          <div class="content mb-10 rounded-4xl drop-shadow-monir">
+            <a href="#">
+              <img src="images/work.png" alt="work.png" />
+            </a>
+            <div
+              class="lg:pl-10 pl-5 lg:pb-11 pb-5 pt-8 bg-white rounded-b-3xl"
+            >
+              <h3 class="text-[20px] font-pop font-medium">
+                Marketin - Elementor Template Kit
+              </h3>
+              <h4
+                class="text-[16px] font-pop font-medium text-[rgba(0,0,0,0.5)] pt-2"
+              >
+                UI/UX Design
+              </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Portfolio_Part End -->
+
+    <!-- Testimoni_Part Start -->
+    <section>
+      <div
+        class="lg:max-w-mContainer max-w-mobContainer m-auto lg:pt-36 pt-10 pb-16 rounded-4xl"
+      >
+        <!-- bg-[#F1F0FB] -->
+        <div class="heading text-center">
+          <h4
+            class="lg:text-[16px] text-[14px] font-pop font-medium text-mcolor tracking-letterS"
+          >
+            TESTIMONY
+          </h4>
+          <h2 class="lg:text-[44px] text-[35px] font-pop font-semibold py-2">
+            What Our Clients Say.
+          </h2>
+          <p
+            class="lg:text-[16px] text-[14px] font-pop text-p lg:w-[550px] m-auto"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae
+            blandit lectus. Praesent at hendrerit velit, at dictum nisl.
+          </p>
+        </div>
+        <div
+          class="content_part lg:pt-12 pt-2 lg:flex lg:justify-between gap-y-3"
+        >
+          <div
+            class="content p-10 lg:w-[48%] w-full bg-white rounded-4xl drop-shadow-monir mb-2"
+          >
+            <div class="text-[#EEC01C] pb-7 lg:text-[20px] text-[16px]">
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <p
+              class="lg:text-[18px] text-[16px] font-pop font-medium lg:leading-7 leading-5 tracking-letterSm lg:w-[470px]"
+            >
+              Nulla nunc orci, suscipit vitae rutrum vitae, sagittis eget dui.
+              Vestibulum nisl lorem, porta at mollis varius, tincidunt in
+              lectus. Nam pulvinar auctor sem ac dictum. Ut sed felis urna.
+            </p>
+            <div class="client_details flex justify-between pt-8 items-center">
+              <div class="name_img flex items-center">
+                <div class="img">
+                  <img
+                    src="images/clients.png"
+                    alt="clients.png"
+                    class="lg:size-full size-[50px]"
+                  />
+                </div>
+                <div class="name lg:pl-5 pl-3">
+                  <h3
+                    class="lg:text-[18px] text-[16px] font-pop font-medium pb-1"
+                  >
+                    David Gueta
+                  </h3>
+                  <p
+                    class="lg:text-[16px] text-[14px] font-pop font-medium text-[rgba(0,0,0,0.5)]"
+                  >
+                    UI/UX Designer
+                  </p>
+                </div>
+              </div>
+              <div class="div">
+                <i
+                  class="fa-regular fa-message lg:text-[32px] text-[24px] text-mcolor"
+                ></i>
+              </div>
+            </div>
+          </div>
+          <div
+            class="content p-10 lg:w-[48%] w-full bg-white rounded-4xl drop-shadow-monir"
+          >
+            <div class="text-[#EEC01C] pb-7 lg:text-[20px] text-[16px]">
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <p
+              class="lg:text-[18px] text-[16px] font-pop font-medium lg:leading-7 leading-5 tracking-letterSm lg:w-[470px]"
+            >
+              Nulla nunc orci, suscipit vitae rutrum vitae, sagittis eget dui.
+              Vestibulum nisl lorem, porta at mollis varius, tincidunt in
+              lectus. Nam pulvinar auctor sem ac dictum. Ut sed felis urna.
+            </p>
+            <div class="client_details flex justify-between pt-8 items-center">
+              <div class="name_img flex items-center">
+                <div class="img">
+                  <img
+                    src="images/clients.png"
+                    alt="clients.png"
+                    class="lg:size-full size-[50px]"
+                  />
+                </div>
+                <div class="name lg:pl-5 pl-3">
+                  <h3
+                    class="lg:text-[18px] text-[16px] font-pop font-medium pb-1"
+                  >
+                    David Gueta
+                  </h3>
+                  <p
+                    class="lg:text-[16px] text-[14px] font-pop font-medium text-[rgba(0,0,0,0.5)]"
+                  >
+                    UI/UX Designer
+                  </p>
+                </div>
+              </div>
+              <div class="div">
+                <i
+                  class="fa-regular fa-message lg:text-[32px] text-[24px] text-mcolor"
+                ></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Testimoni_Part End -->
+
+    <!-- Contact_Part Start -->
+    <section id="contact">
+      <div
+        class="lg:max-w-mContainer max-w-mobContainer m-auto lg:mt-16 lg:py-28 py-16 bg-[url(../images/contact_bg_2.png)] bg-no-repeat bg-center bg-cover text-center rounded-3xl"
+      >
+        <h2
+          class="lg:text-[50px] text-[28px] font-pop font-semibold text-h1 lg:leading-[72px] leading-12 lg:w-[600px] w m-auto"
+        >
+          Interested Working With me? Let's connect!
+        </h2>
+        <a
+          href="tel:+8801310951801"
+          class="text-[14px] font-pop text-white bg-mcolor lg:px-10 px-6 lg:py-6 py-4 rounded-[50px] inline-block mt-5"
+          ><i class="fa-regular fa-envelope mr-2"></i>CONTACT ME</a
+        >
+      </div>
+    </section>
+    <!-- Contact_Part End -->
+
+    <!-- Service_Part Start -->
+    <footer>
+      <div
+        class="lg:max-w-mContainer max-w-mobContainer m-auto bg-h1 lg:mt-32 mt-16 rounded-t-4xl"
+      >
+        <div
+          class="lg:max-w-[1000px] max-w-[320px] m-auto lg:pt-28 pt-16 lg:pb-16 pb-4"
+        >
+          <div class="lg:pb-[76px] pb-10 lg:flex lg:justify-between">
+            <div class="left">
+              <img src="images/logo_2.png" alt="logo_2.png" class="" />
+              <p
+                class="lg:text-[16px] text-[14px] font-pop text-white lg:leading-8 leading-6 lg:w-[350px] lg:pt-6 pt-3"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+                vitae blandit lectus. Praesent at hendrerit.
+              </p>
+            </div>
+
+            <div class="right lg:pt-0 pt-10">
+              <p class="text-[14px] font-pop text-white">
+                <i class="fa-regular fa-envelope mr-4"></i>
+                montajurrahmanmonir@gmail.com
+              </p>
+              <p class="text-[16px] font-pop text-white py-6">
+                <i class="fa-solid fa-phone mr-4"></i> (+880) 1310951801
+              </p>
+              <div>
+                <a href="#" class="mr-6"
+                  ><i class="fa-brands fa-linkedin-in text-2xl text-white"></i
+                ></a>
+                <a href="#" class="mr-6">
+                  <i class="fa-solid fa-globe text-2xl text-white"></i
+                ></a>
+                <a href="#" class="mr-6"
+                  ><i class="fa-brands fa-facebook text-2xl text-white"></i
+                ></a>
+                <a href="#" class="mr-6"
+                  ><i class="fa-brands fa-instagram text-2xl text-white"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <hr class="text-[#404040]" />
+          <div class="lg:flex lg:justify-between pt-12 items-center">
+            <div class="menu">
+              <ul class="lg:flex-none flex justify-between flex-wrap">
+                <li class="inline-block lg:w-max w-1/2">
+                  <a
+                    href="#"
+                    class="text-[14px] font-pop text-white tracking-letterS lg:mr-8 uppercase"
+                    >HOME</a
+                  >
+                </li>
+                <li class="inline-block lg:w-max w-1/2">
+                  <a
+                    href="#about_part"
+                    class="text-[14px] font-pop text-white tracking-letterS lg:mr-8 uppercase block"
+                    >ABOUT US</a
+                  >
+                </li>
+                <li class="inline-block lg:w-max w-1/2">
+                  <a
+                    href="#service_part"
+                    class="text-[14px] font-pop text-white tracking-letterS lg:mr-8 uppercase"
+                    >SERVICES</a
+                  >
+                </li>
+                <li class="inline-block lg:w-max w-1/2">
+                  <a
+                    href="#portfolio"
+                    class="text-[14px] font-pop text-white tracking-letterS lg:mr-8 uppercase"
+                    >WORKS</a
+                  >
+                </li>
+                <li class="inline-block lg:w-max w-1/2">
+                  <a
+                    href="#contact"
+                    class="text-[14px] font-pop text-white tracking-letterS lg:mr-8 uppercase"
+                    >contact</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="copyr lg:p-0 pt-6">
+              <p
+                class="text-[16px] font-pop text-[rgba(255,255,255,0.6)] tracking-letterSm"
+              >
+                <i class="fa-regular fa-copyright"></i> All Right Reserved
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Service_Part End -->
+
+    <!-- Back to top Start -->
+    <section>
+      <di class="back-to-top fixed right-[2%] bottom-[5%]">
+        <a href="#"
+          ><i class="fa-brands fa-space-awesome text-[50px] text-red-400"></i
+        ></a>
+      </di>
+    </section>
+    <!-- Back to top End -->
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/counterup.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

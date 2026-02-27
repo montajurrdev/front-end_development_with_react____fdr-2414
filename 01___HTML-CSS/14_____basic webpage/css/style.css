@@ -1,0 +1,423 @@
+/* All common css start  */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul,ol{
+    list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    line-height: 0.8;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+.rowflex{
+    display: flex;
+ 
+}
+
+/* All common css end  */
+
+/* Header part start  */
+#headerpart{
+    padding: 30px 0;
+    /* background:#636363; */
+    position: fixed;
+    left: 0;
+    right: 0;
+    width: 100%;
+  
+}
+
+.headercontent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.menu ul li{
+    display: inline-block;
+
+}
+.menu ul li a{
+    
+    font-size: 15px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    padding: 0 25px;
+
+}
+.menu ul li a:hover{
+    color: #ffa415;
+
+}
+.icon i{
+    color: #fff;
+    margin: 0 25px;
+
+}
+.icon a{
+    padding: 20px 40px;
+    background: tomato;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: "Nunito Sans", sans-serif;
+
+}
+.icon a:hover{
+    color: #ffa415;
+}
+/* Header part End  */
+
+/* banner part start  */
+
+#bannerpart{
+
+    background:url(../img/slider-2-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#bannerpart .overly{
+    padding-top: 270px;
+    padding-bottom: 230px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+.bannerText h1{
+    color: #fff;
+   
+    font-size: 65px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
+    width: 612px;
+    line-height: 68px;
+
+}
+.bannerText span{
+    color: #ffa415;
+    /* border-bottom: 5px solid #ffa415; */
+    position: relative;
+}
+.bannerText span::before{
+    height: 5px;
+    width: 86%;
+    background-color: #ffa415;
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 13px;
+
+
+
+}
+/* .joinbutton{
+   
+    width: 120px;
+    background-color: #ffa415;
+    border-radius: 30px;
+    text-align: center;
+    align-items: center;
+} */
+.bannerText a{
+    padding: 20px 30px;
+    color: #fff;
+    font-size: 17px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
+    background-color: #ffa415;
+    border-radius: 30px;
+    margin-top: 20px;
+    border: 1px solid #ffa415;
+    transition: .4s;
+    
+
+}
+.bannerText a:hover{
+    background: transparent;
+    border: 1px solid saddlebrown;
+    
+}
+#donationpart{
+    padding-bottom: 140px;
+    background-color: #fff;
+}
+.donationFlex{
+    display: flex;
+    justify-content: space-between;
+}
+.donationItem{
+    width: 30%;
+    /* height: 330px; */
+    /* background-color: rebeccapurple; */
+    /*  */
+    position: relative;
+}
+.donationImg img{
+    width: 100%;
+    border-radius: 0 0 20px 20px;
+}
+
+.donationbox{
+    width: 83%;
+    
+    background-color: #fff;
+    border-radius: 58px;
+    padding: 30px 35px;
+    position: absolute;
+    top: -52px;
+    left: 0;
+    display: flex;
+    column-gap: 15px;
+    align-items: center;
+    transition: .4s;
+
+}
+.donationbox i{
+    font-size: 50px;
+    color: #ffa415;
+    transition: .4s;
+
+
+}
+.donationbox h3{
+    color: #122f2A;
+    font-size: 24px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 800;
+    margin-bottom: 15px;
+    transition: .4s;
+
+
+}
+.donationbox p{
+    color: #122f2A;
+    font-size: 16px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 300;
+    transition: .4s;
+   
+
+
+}
+.boxnumber{
+   padding: 8px 25px 15px;
+   background-color: #fff;
+   
+   border-bottom-right-radius: 50px;
+   border-bottom-left-radius: 50px;
+   position: absolute;
+   top: 100%;
+   left: 150px;
+   
+}
+.boxnumber span{
+    font-size: 35px;
+    font-family: "Caveat", cursive;
+    font-weight: 800;
+    color: #ffa415;
+}
+
+.donationItem:hover .donationbox{
+    background: #ffa415;
+}
+
+.donationItem:hover .donationbox i{
+   color: #fff;
+}
+.donationItem:hover .donationbox h3{
+   color: #fff;
+}
+.donationItem:hover .donationbox p{
+   color: #fff;
+}
+
+
+.donationItem .circle{
+    padding: 12px 12px;
+    width: fit-content;
+    background: #ffa415;
+    border-radius: 50%;
+    position: absolute;
+    top: 336px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.donationItem .circle i{
+    color: #fff;
+    transition: .4s;
+}
+.donationItem .circle:hover i{
+    transform: rotate(-90deg);
+}
+
+.item2 .donationbox i{
+    color: #fc5528;
+}
+.item2 .donationbox span{
+    color: #fc5528;
+}
+.item2 .circle{
+    background: #fc5528;
+}
+.item2:hover .donationbox{
+    background: #fc5528;
+}
+.item3 .donationbox i{
+    color: #8139e7;
+}
+.item3 .donationbox span{
+    color: #8139e7;
+}
+.item3 .circle{
+    background: #8139e7;
+}
+.item3:hover .donationbox{
+    background: #8139e7;
+}
+
+
+
+/* banner part end  */
+
+/* About part start  */
+.aboutleft img{
+    border-radius: 30px;
+}
+.aboutleft{
+    margin-right: 40px;
+}
+.aboutright h5{
+    font-size: 22px;
+    font-family: "Caveat", cursive;
+    font-weight: 500;
+    color: #fc5528;
+    line-height: 22px;
+}
+.aboutright h3{
+    font-size: 40px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 800;
+    color: #122f2a;
+    width: 550px;
+    line-height: 50px;
+    margin-bottom: 30px;
+}
+.aboutright p{
+    font-size: 16px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 300;
+    width: 480px;
+    line-height: 28px;
+    color: #636363;
+}
+.aboutright .rightitem{
+    text-align: center;
+    margin-top: 50px;
+
+}
+.aboutright .rightitem i{
+    color: #ffa415;
+    font-size: 50px;
+    line-height: 50px;
+    margin-bottom: 18px;
+
+}
+.aboutright .rightitem h4{
+    color: #122f2A;
+    font-size: 18px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
+    
+    margin-bottom: 5px;
+
+}
+.aboutright .rightitem span{
+    color: #ffa415;
+    font-size: 26px;
+    font-family: "Caveat", cursive;
+    font-weight: 700;
+
+}
+.aboutright .rowflex{
+    justify-content: space-between;
+}
+.aboutright .rightitem2 i{
+    color: #ff5528;
+
+}
+.aboutright .rightitem2 span{
+    color: #ff5528;
+
+}
+.aboutright .rightitem3 i{
+    color: #8139e7;
+
+}
+.aboutright .rightitem3 span{
+    color: #8139e7;
+
+}
+
+.aboutright hr{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.founder{
+    width: 570px;
+
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+.founder .namePic{
+    display: flex;
+   align-items: center;
+   column-gap: 15px;
+}
+.founder .namePic img{
+    border-radius: 50%;
+    border: 2px dotted #ff5528;
+    
+}
+.founder .name h5{
+    color: black;
+    font-size: 24px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
+    margin-bottom: 5px;
+    /* display: inline-block; */
+}
+.founder .name p{
+    color: black;
+    font-size: 16px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 300;
+    display: inline;
+}
+
+
+/* About part start  */
+
+/* About part start  */
+/* About part start  */
+
+/* About part start  */
+/* About part start  */
+
+/* About part start  */
+/* About part start  */

@@ -1,0 +1,104 @@
+/* All common css start  */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1320px;
+
+}
+
+/* All common css end  */
+
+.main{
+    margin: 0 auto;
+    height: 900px;
+    /* width: 800px;
+     */
+    background: gainsboro;
+    position: relative;
+}
+/* Day #01: Basic HTML Tag with Extremal CSS  */
+h1{
+    text-align: center;
+    color: brown;
+    font-size: 50px;
+    /* text-transform: uppercase; */
+
+}
+.p{
+    text-align: right;
+    font-size: 80px;
+    font-style: oblique;
+    color: blueviolet;
+}
+p{
+    font-size: 40px;
+}
+
+.main1{
+    margin: 0 auto;
+    /* top: 1000px; */
+    height: 1200px;
+    
+    background: thistle;
+    position: relative;
+
+
+}
+.media{
+    height: 500px;
+    width: 50%;
+    background: blueviolet;
+    position: absolute;
+    display: flex;
+    
+    
+}
+
+img{
+    /* margin: 12px 20px; */
+    height: 200px;
+    width: 300px;
+    /* padding: 25px 40px; */
+    position: absolute;
+}
+.youtube{
+    top: 0;
+    left: 0;
+}
+.facebook{
+    right: 0;
+    top: 0;
+}
+.rokomari{
+    bottom: 0;
+    left: 0;
+}
+.clockyfy{
+    bottom: 0;
+    right: 0;
+}
+iframe{
+    height: 500px;
+    width: 100%;
+    
+}
+.vedio{
+    right: 0;
+
+    height: 500px;
+    width: 50%;
+    background: blue;
+    position: absolute;
+}
+
+.aa{
+    height: 50px;
+    width: 50px;
+    top: 400px;
+    position: absolute;
+    color: black;
+}

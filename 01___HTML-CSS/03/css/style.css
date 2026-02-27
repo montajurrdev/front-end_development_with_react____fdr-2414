@@ -1,0 +1,71 @@
+h1{
+    color: aqua;
+}
+.alpha{
+    color: antiquewhite;
+}
+#bita{
+    color: blue;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    height: 500px;
+    width: 500%;
+    background: rgb(46, 221, 221);
+}
+.two{
+    height: 200px;
+    width: 200px;
+    background: maroon;
+}
+.main{
+    height: 600px;
+    background: tomato;
+    width: 900px;
+}
+.oneColor{
+height: 200px;
+width: 900px;
+background: rgb(46, 221, 221);
+display: flex;
+}
+.twoColor{
+    height: 200px;
+    width: 900px;
+    background: rgb(69, 199, 199);
+}
+.threeColor{
+    height: 200px;
+    width: 900px;
+    background: rgb(91, 156, 156);
+}
+.colOne{
+    height: 200px;
+    width: 450px;
+    background: rgb(232, 241, 95);
+}
+.colTwo{
+    height: 200px;
+    width: 450px;
+    background: rgb(245, 42, 86);
+}
+.monir{
+    height: 700px;
+    width: 700px;
+    background: rgb(207, 139, 29);
+    display: flex;
+    justify-content: space-between;
+}
+.he{
+    height: 100px;
+    width: 100px;
+    background: rgb(11, 201, 201);
+}
+.she{
+    height: 100px;
+    width: 100px;
+    background: rgb(232, 241, 95);
+}

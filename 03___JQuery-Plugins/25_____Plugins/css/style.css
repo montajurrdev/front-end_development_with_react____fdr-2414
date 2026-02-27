@@ -1,0 +1,144 @@
+/* All Common Css Start  */
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+a,
+a:hover {
+  text-decoration: none;
+  display: inline-block;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+span,
+p {
+  line-height: 0.8;
+}
+
+/* All Common Css End  */
+
+
+
+/* Header_Part Css Start */
+#nomadanna{
+  padding: 50px 0;
+  background: tomato;
+  height: 900px;
+}
+.imgPart{
+  margin-top: 50px;
+}
+.img{
+  margin-bottom: 10px;
+}
+/* Header_Part Css End */
+
+/* Header_Part Css Start */
+#slickPart{
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+.overly{
+  padding: 350px 0;
+  background: rgba(58, 44, 22, 0.8);
+}
+.sliderOne{
+  background: url(../images/Sl-01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+.two{
+  background: url(../images/Sl-02.jpg);
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+.three{
+  background: url(../images/Sl-03.jpg);
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+.prev{
+  font-size: 50px;
+  color: red;
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translate(-50%,-50%);
+  z-index: 11;
+  visibility: hidden;
+
+}
+.next{
+  font-size: 50px;
+  color: red;
+    position: absolute;
+  top: 50%;
+  right: 5%;
+  transform: translate(-50%,-50%);
+  visibility: hidden;
+
+}
+.sliders{
+  transition: .4s;
+}
+.sliders:hover i{
+  visibility: visible;
+
+
+}
+.slick-dots{
+
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.slick-dots button{
+
+border: none;
+background: #ffffff7e;
+margin: 0 20px;
+
+width: 30px;
+height: 30px;
+border-radius: 50%;
+
+}
+
+/* Header_Part Css End */
+
+/* Header_Part Css Start */
+.extra{
+padding: 150px 0;
+}
+.extra h1{
+  text-align: center;
+  font-size: 120px;
+  font-weight: 900;
+  background: url(../images/Sl-03.jpg);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+
+}
+/* Header_Part Css End */
+
+/* Header_Part Css Start */
+/* Header_Part Css End */

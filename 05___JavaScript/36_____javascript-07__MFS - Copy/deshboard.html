@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="src/output.css" />
+  </head>
+  <body>
+        <!-- DeshBoard Screen Start -->
+    <div class="max-w-[1320px] m-auto flex justify-center">
+      <div class="mockup-phone border-primary hidden" id="dashboard">
+        <div class="mockup-phone-camera"></div>
+        <div class="mockup-phone-display grid place-content-center">
+          <div class="flex justify-center items-center mb-10">
+            <img
+              src="images/01.webp"
+              alt="01.webp"
+              class="w-[100px] h-[100px] rounded-[40px]"
+            />
+            <h1 class="text-white text-4xl text-center">
+              Current Balance : <span>500</span>
+            </h1>
+          </div>
+          <div class="flex justify-between">
+            <button class="btn btn-outline btn-accent" onclick="cashIN ()">
+              Cash In
+            </button>
+            <button class="btn btn-outline btn-accent" >
+              Cash Out
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- DeshBoard Screen End -->
+
+    <!-- CashOut Screen Start -->
+    <div class="max-w-[1320px] m-auto flex justify-center">
+      <div class="mockup-phone border-primary hidden" id="cashInPart">
+        <div class="mockup-phone-camera"></div>
+        <div class="mockup-phone-display grid place-content-center">
+          <div class="flex justify-center items-center mb-10">
+            <img
+              src="images/01.webp"
+              alt="01.webp"
+              class="w-[100px] h-[100px] rounded-[40px]"
+            />
+            <h1 class="text-white text-4xl text-center">
+              Current Balance : <span id="currentBalance">500</span>
+            </h1>
+          </div>
+
+          <div class="m-auto">
+            <fieldset class="fieldset">
+              <legend class="fieldset-legend text-white text-3xl">
+                Cash In
+              </legend>
+              <input
+                type="number"
+                class="input text-black"
+                placeholder="Cash In Amount"
+                id="cashInAmount"
+              />
+              <input
+                type="password"
+                class="input text-black"
+                placeholder="Type password"
+                id="logpassword"
+              />
+
+              <button class="btn btn-success" id="cashInBtn">Cash In</button>
+            </fieldset>
+          </div>
+        </div>
+        <div>
+          <p class="text-red-500 text-right text-2xl hidden" id="incorrect">
+            Incorrect
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- CashOut Screen End -->
+
+    <!-- <script src="js/script.js"></script> -->
+  </body>
+</html>

@@ -1,0 +1,126 @@
+/* All common css start  */
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 0 auto;
+    width: 1320px;
+
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+/* All common css end  */
+
+/* Headerpart start  */
+.headerpart{
+    height: 220px;
+    /* background: rgb(103, 8, 180); */
+    display: flex;
+    background-image: linear-gradient(to right top, #6708b4, #3b249f, #0f2985, #002767, #002147);
+
+}
+/* .logo2 a{
+    height: 200px;
+    width: 100px;
+} */
+
+.headercontent1{
+   
+    height: 100px;
+    background: #002147;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo1{
+   
+    
+}
+.logo1 a img{
+    border-radius: 20%;
+    padding: 0 20px;
+    
+
+}
+.menu1 li{
+    display: inline-block;
+    background:#ffb606;
+    border-radius: 5px;
+    padding: 15px 20px;
+    margin: 0 5px;
+}
+.menu1 ul li a{
+    color: #000;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    transition: .4s;
+    
+
+}
+.menu1 ul li a:hover{
+    color: coral;
+}
+/* headercontent2 start  */
+.headercontent2{
+    height: 120px;
+    background: #1e1e1e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search{
+    background: #fff;
+    margin: 0 10px;
+}
+.search input{
+
+    height: 50px;
+    border: none;
+}
+.search input::placeholder{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    
+}
+.menu2 ul li{
+    display: inline-block;
+    background: tomato;
+    padding: 15px 20px;
+    margin: 0 5px;
+    
+}
+.menu2 ul li a{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+
+    
+}
+.menu2{
+    margin: 0 0 0 20px ;
+}
+.menu2 ul li a:hover{
+    color: #6708b4;
+}
+
+
+
+/* headercontent2 end  */
+
+/* Header part end  */
+
+.extra{
+    height: 500px;
+    background-color: teal;
+}

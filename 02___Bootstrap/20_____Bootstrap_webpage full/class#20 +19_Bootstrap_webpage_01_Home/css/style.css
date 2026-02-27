@@ -1,0 +1,325 @@
+/* All Common Css Start  */
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-family: "Poppins", sans-serif;
+}
+a,
+a:hover {
+  text-decoration: none;
+  display: inline-block;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+span,
+p {
+  line-height: 0.8;
+}
+
+/* All Common Css End  */
+
+/* Header-Part css Start  */
+#headerpart {
+  background: #ffffff;
+}
+.nav-link {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  color: #000000;
+  padding: 0 26px !important;
+  transition: 0.4s;
+}
+.nav-link:hover {
+  color: #b88e2f;
+}
+
+.icons i {
+  padding: 0 15px;
+  color: #000000;
+}
+
+/* Header-Part css End  */
+
+/* Banner-Part css Start  */
+#bannerpart {
+  padding: 155px 0 115px;
+  background: url(../img/Mask\ Group.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bannerCard {
+  background: #fff3e3;
+  padding: 65px 65px 40px 40px;
+  border-radius: 10px;
+}
+.bannerCard h4 {
+  color: #333333;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 3px;
+}
+.bannerCard h1 {
+  color: #333333;
+  font-size: 52px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  line-height: 65px;
+  color: #b88e2f;
+  width: 400px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.bannerCard p {
+  color: #333333;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  line-height: 24px;
+
+}
+.bannerCard a {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  padding: 30px 66px;
+  background: #b88e2f;
+  margin-top: 50px;
+}
+/* Banner-Part css End  */
+
+/* Browse-Part css Start  */
+#BrowsePart {
+  padding: 65px 0;
+}
+#BrowsePart .heading h3 {
+  font-size: 32px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+
+  color: #333333;
+}
+#BrowsePart .heading p {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+
+  color: #666666;
+  padding-top: 10px;
+  padding-bottom: 65px;
+}
+#BrowsePart .content h4 {
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+
+  color: #333333;
+  padding-top: 30px;
+}
+
+/* Browse-Part css End  */
+
+/* Products-Part css Start  */
+#productsPart {
+}
+.product_heading h2 {
+  font-size: 40px;
+  font-weight: 700;
+
+  color: #3a3a3a;
+  padding-bottom: 40px;
+}
+.productsPart .content .pic {
+  position: relative;
+}
+
+.productsPart .content .badge {
+  height: 48px;
+  width: 48px;
+  background: #e97171;
+  border-radius: 50%;
+  position: absolute;
+  right: 10%;
+  top: 10%;
+  transition: .4s;
+}
+.productsPart .content .green{
+  background: #2EC1AC;
+}
+.productsPart .content .badge p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.productsPart .content .text {
+  padding: 15px 15px 35px;
+}
+.productsPart .content .text h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #3a3a3a;
+}
+.productsPart .content .text p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #898989;
+  padding: 14px 0;
+}
+.productsPart .content .text h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #3a3a3a;
+}
+.productsPart .content .text del {
+  font-size: 16px;
+  font-weight: 400;
+  color: #b0b0b0;
+  margin-left: 10px;
+}
+.productsPart .content {
+  position: relative;
+  margin-bottom: 32px;
+}
+.productsPart .content .overly {
+  background: rgba(58, 58, 58, 0.72);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.4s;
+}
+
+.productsPart .content .overly .cart a {
+  padding: 14px 59px;
+  background: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  color: #b88e2f;
+  position: absolute;
+  top: 43%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 210px;
+}
+.productsPart .content .overly .icons {
+  position: absolute;
+  top: 57%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+}
+.productsPart .content .overly .icons a {
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.productsPart .content:hover .overly {
+  visibility: visible;
+  opacity: 0.8;
+}
+.productsPart .content:hover .badge {
+  visibility: hidden;
+  
+}
+.productsPart .show_more a{
+  font-size: 16px;
+  font-weight: 600;
+  color: #B88E2F;
+  padding: 18px 80px;
+  border: 1px solid #B88E2F;
+  margin-bottom: 32px;
+  
+
+}
+.productsPart .show_more a:hover{
+  color: #463c3c;
+  background: #948562;
+
+}
+/* Products-Part css End  */
+
+/* Footer-Part css Start  */
+#footerPart{
+  padding-top: 48px;
+}
+.footer .address h3{
+  font-size: 24px;
+  font-weight: 700;
+  color: #000000;
+  padding-bottom: 60px;
+}
+.footer .address p{
+  font-size: 16px;
+  font-weight: 400;
+  color: #9F9F9F;
+  line-height: 24px;
+  width: 285px;
+
+}
+.footer .menu ul{
+  padding: unset;
+}
+.footer .menu h4{
+  font-size: 16px;
+  font-weight: 500;
+  color: #9F9F9F;
+  padding-bottom: 60px;
+}
+.footer .menu ul li a{
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+  padding-bottom: 50px;
+  transition: .4s;
+}
+.footer .menu ul li a:hover{
+color: #B88E2F;
+}
+.footer .menu .email{
+  font-size: 14px;
+  font-weight: 400;
+  color: #9F9F9F;
+  border: none;
+  border-bottom: 1px solid #0000006e;
+  padding-right: 20px;
+
+}
+.footer .menu .submit{
+  font-size: 14px;
+  font-weight: 500;
+  border-bottom: 1px solid #000000 !important;
+
+
+}
+.copyRight p{
+
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+  padding: 20px 0;
+}
+/* Footer-Part css End  */
+
+/* Header-Part css Start  */
+/* Header-Part css End  */

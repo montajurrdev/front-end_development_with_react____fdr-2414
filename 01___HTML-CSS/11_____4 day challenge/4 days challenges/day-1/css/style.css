@@ -1,0 +1,64 @@
+
+b{
+    background: rgb(110, 109, 153);
+    color: rgb(0, 0, 0);
+    
+    font-size: 30px;
+}
+p{
+    text-align: center;
+    
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    color: rebeccapurple;
+}
+h6{
+    text-align: center;
+    font-size: 22px;
+    
+}
+.submit{
+    background: rgb(17, 156, 63);
+    color: wheat;
+}
+.reset{
+    background: blueviolet;
+    color: white;
+}
+form{
+    /* text-align: center; because of center tag  */
+    background: gray;
+}
+.address{
+    height: 50px;
+    width: 180px;
+    
+}
+.label1 input{
+    height: 30px;
+}
+.link{
+    height: 300px;
+    /* background: green; */
+}
+a{
+    text-decoration: none;
+}
+
+h5 a img{
+    background: #2b2222;
+    height: 250px;
+    
+    
+}
+iframe{
+    height: 500px;
+    width: 48%;
+}
+.r{
+    float: right;
+}
+
+

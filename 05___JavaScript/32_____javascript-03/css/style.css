@@ -1,0 +1,19 @@
+#bg button {
+  border: none;
+
+  margin-top: 50px;
+  margin-right: 20px;
+  padding: 20px 40px;
+  background: thistle;
+  border-radius: 10px;
+}
+
+#onclick {
+  border: none;
+
+  margin-top: 50px;
+  margin-right: 20px;
+  padding: 20px 40px;
+  background: rgb(233, 161, 233);
+  border-radius: 10px;
+}

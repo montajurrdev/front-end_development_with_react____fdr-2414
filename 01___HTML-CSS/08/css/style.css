@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* Before After start  */
+h1{
+    position: relative;
+    
+    display: inline;
+   
+
+}
+h1::before{
+    height: 5px;
+    width: 70px;
+    background: tan;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+h1::after{
+    height: 5px;
+    width: 70px;
+    background: tan;
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+
+
+h1 .s1::before{
+    height: 5px;
+    width: 50px;
+    background: tomato;
+    position: absolute;
+    content: "";
+    top: 50%;
+    right: 150px;
+    transform: translateY(-50%);
+}
+h1 .s1::after{
+    height: 5px;
+    width: 50px;
+    background: tomato;
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 150px;
+    transform: translateY(-50%);
+}
+h1 .s2::before{
+    height: 8px;
+    width: 8px;
+    background: tomato;
+    position: absolute;
+    content: "";
+    top: -1px;
+    left: 25px;
+    border-radius: 50%;
+}
+h1 .s2::after{
+    height: 15px;
+    width: 15px;
+    background: tomato;
+    position: absolute;
+    content: "";
+    bottom: -10px;
+    right: 22px;
+    border-radius: 50%;
+}
+
+.main1{
+
+    text-align: center;
+
+    margin: 100px auto;
+    background: gainsboro;
+    /* height: 50px; */
+ 
+}
+
+/* Before After End  */
+
+
+
+/* All common css start  */
+
+
+.container{
+    width: 1320px;
+    margin: 0 auto;
+    /* display: inline; */
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+/* All common css End  */
+
+/* Header part start  */
+
+.main2{
+    margin: 100px auto;
+}
+
+.section1{
+    height: 70px;
+    background: red;
+    
+}
+.header{
+    background: rgb(26, 214, 214);
+   height: 70px;
+   
+   
+}
+
+/* kono div er width na dile se tar parent div er width pabe ,parent div na thakle width 100%. */
+
+/* Header part end  */
+
+.banner{
+    background: green;
+    height: 200px;
+    text-align: center;
+    color: burlywood;
+    font-size: 100px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-style: italic;
+}
+
+
+/* Menu bar css start */
+
+
+.main3{
+    margin: 100px auto;
+}
+
+.menupart{
+    background: gold;
+    /* height: 100px; */
+}
+.menu{
+    background: rgb(212, 142, 72);
+    /* height: 100px; */
+    text-align: center;
+    position: relative;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    color: #fff;
+    padding: 0 15px;
+    font-size: 20px;
+    text-transform: uppercase;
+    line-height: 100px;
+    transition: .4s;
+    font-family: "Playwrite IT Moderna", serif;
+    font-weight: 400;
+}
+.menu ul li a:hover{
+    color: blueviolet;
+}
+
+.logo{
+    top: 50%;
+    height: 40px;
+    width: 200px;
+    transform: translateY(-50%);
+
+    background: url(../img/1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    position: absolute;
+   
+}
+
+/* Menu bar css end  */
+

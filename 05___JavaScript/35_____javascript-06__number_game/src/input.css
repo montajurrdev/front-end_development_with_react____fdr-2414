@@ -1,0 +1,17 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+
+
+/* Font  */
+@theme {
+    /* width  */
+  --spacing-mContainer: 1320px; 
+
+
+
+
+
+
+  --font-pop: "Poppins", "sans-serif"; 
+}

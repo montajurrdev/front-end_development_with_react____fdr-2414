@@ -1,0 +1,38 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+
+
+
+@theme {
+  
+  /* Witdh Start  */
+  --spacing-mContainer: 1280px;
+  /* Witdh End  */
+
+  /* font Start  */
+  --font-pop: "Poppins", "sans-serif";
+  --font-Playwrite: "Playwrite IT Moderna", "sans-serif";
+    --text-tiny: 16px; 
+  /* font End  */
+
+  /* color Start  */
+  --color-mcolor: #5e3bee;
+  --color-mhover: #f6b058;
+  --color-h1: #333333;
+  --color-sectionColor: #f9f9fc;
+  --color-p: #121212;
+  --color-tinyC: #5F5270;
+  --color-tinyHv: #8A38EE;
+
+  /* color End  */
+
+  /* letter spacing  */
+  --tracking-letterS: 2px;
+  --tracking-letterSm: 1px;
+  /* letter spacing  */
+
+ --drop-shadow-monir: 37px 37px 80px rgba(0, 0, 0, 0.1); 
+}
+
+/* shadow-[37px_37px_80px_0px_rgba(0,0,0,0.1)] */

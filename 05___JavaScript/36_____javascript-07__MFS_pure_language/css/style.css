@@ -1,0 +1,97 @@
+a{
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+.container {
+  width: 370px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.rowflex {
+  display: flex;
+  justify-content: space-between;
+}
+.homeBtn{
+    background-color: yellow;
+    display: none;
+
+}
+.mobile {
+  margin: 0 auto;
+  height: 750px;
+  width: 400px;
+  background-color: rgb(39, 109, 141);
+  border: 5px solid rgb(240, 169, 169);
+  border-radius: 30px;
+}
+
+.logo {
+  height: 150px;
+  width: 100%;
+
+  border-radius: 50px;
+  margin: 30px 0 0;
+}
+.loginPart {
+  width: 300px;
+  margin: 0 auto;
+  background-color: antiquewhite;
+  border: 20px solid yellowgreen;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 10px;
+}
+input {
+  width: 200px;
+  margin: 0 auto;
+  height: 40px;
+  font-size: 20px;
+}
+.loginPart h2 {
+  font-size: 35px;
+  text-align: center;
+}
+button {
+  padding: 15px 30px;
+  margin: 0 auto;
+  background-color: green;
+  border-radius: 10px;
+}
+.loginPart p {
+  font-size: 20px;
+  text-align: center;
+  color: red;
+  display: none;
+}
+.dashBoardPart {
+  row-gap: 10px;
+}
+.balancePart {
+  display: flex;
+  font-size: 40px;
+  align-items: center;
+  column-gap: 10px;
+}
+.balancePart i {
+  font-size: 80px;
+}
+.balancePart h3 {
+  font-size: 40px;
+  text-align: center;
+}
+
+
+#dashBoardScrn{
+  display: none;
+}
+#cashInPage{
+  display: none;
+}
+#cashOutPage{
+  display: none;
+}

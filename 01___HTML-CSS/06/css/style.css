@@ -1,0 +1,455 @@
+/* main class homework start */
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    margin: 0 auto;
+    height: 900px;
+    width: 1000px;
+    background: #48d8fc;
+    position: relative;
+}
+
+.baba{
+    height: 150px;
+    width: 150px;
+    background: yellow;
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+}
+.uncle1{
+    height: 150px;
+    width: 150px;
+    background: rgb(139, 139, 51);
+    position: absolute;
+    bottom: 0;
+    right: 0; 
+    
+}
+.uncle2{
+    height: 150px;
+    width: 150px;
+    background: yellow;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+   
+}
+.uncle3{
+    height: 150px;
+    width: 150px;
+    background: yellow;
+    position: absolute;
+    top: 0;
+    left: 0;
+   
+}
+.fupi1{
+    height: 150px;
+    width: 150px;
+    background: rgb(18, 240, 155);
+    position: absolute;
+   top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+   
+}
+.fupi2{
+    height: 150px;
+    width: 150px;
+    background: rgb(28, 238, 203);
+    position: absolute;
+   right: 0;
+   top: 50%;
+   transform: translateY(-50%);
+   
+}
+.fupi3{
+    height: 150px;
+    width: 150px;
+    background: rgb(94, 131, 125);
+    position: absolute;
+   left: 50%;
+   bottom: 0;
+  
+   transform: translatex(-50%);
+   
+}
+.fupi4{
+    height: 150px;
+    width: 150px;
+    background: rgb(94, 131, 125);
+    position: absolute;
+   left: 0;
+  top: 50%;
+  
+   transform: translatey(-50%);
+   
+}
+.dadi{
+    height: 150px;
+    width: 150px;
+    background: rgb(94, 131, 125);
+    position: absolute;
+   left: 50%;
+  top: 50%;
+  
+   transform: translate(-50%,-50%);
+   
+}
+.cele{
+    height: 70px;
+    width: 70px;
+    background: rgb(34, 194, 95);
+    position: absolute;
+   left: 50%;
+  top: 50%;
+  
+   transform: translate(-50%,-50%);
+   
+}
+
+
+/* this is the flag of bangladesh  */
+*{
+    /* margin: 50px auto;
+    padding: 0; */
+}
+.main1{
+    margin: 50px auto;
+    height: 900px;
+    width: 900px;
+    background: gainsboro;
+    position: relative;
+}
+.bflag{
+    height: 150px;
+    width: 300px;
+    background: rgb(4, 199, 92);
+    top: 300px;
+    left: 35%;
+    position: absolute;
+}
+.bcircle{
+    height: 80px;
+    width: 80px;
+    background: rgb(224, 53, 53);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+
+}
+.bambo {
+    height: 500px;
+    width: 20px;
+    background: #fac692;
+    position: absolute;
+    top: 288px;
+    left: 295px;
+    border-radius: 5px;
+}
+.vim {
+    height: 80px;
+    width: 90px;
+    background: grey;
+    position: absolute;
+    top: 775px;
+    left: 261px;
+    border-radius: 10px;
+}
+/* main class homework end  */
+
+
+/* 20 flag css */
+
+.main2{
+    margin: 0 auto;
+    height: 900px;
+    width: 1000px;
+    background: gainsboro;
+     position: relative;
+
+}
+.canada{
+    
+    height: 150px;
+    width: 300px;
+    background: white;
+    position: absolute;
+    
+    top: 20px;
+    left: 80px;
+    
+    
+}
+.cred1{
+    height: 150px;
+    width: 70px;
+    background: #d82819;
+    top: 0;
+    left: 0;
+    position: absolute;
+    
+}
+.cred2{
+    height: 150px;
+    width: 70px;
+    background: #d82819;
+    top: 0;
+    right: 0;
+    position: absolute;
+
+}
+.cimg{
+   padding: 65px 70px;
+    background: url(../img/canada.png);
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+/* us */
+.us{
+    height: 195px;
+    width: 370px;
+    background: white;
+    position: relative;
+    
+    top: 20px;
+    left: 50%;
+}
+.usred1{
+    height: 15px;
+    width: 370px;
+    background: #b12725;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+.usred2{
+    height: 15px;
+    width: 370px;
+    background: #b12725;
+    position: absolute;
+    top: 30px;
+    left: 0;
+
+
+}
+.usred3{
+    height: 15px;
+    width: 370px;
+    background: #b12725;
+    position: absolute;
+    top: 60px;
+    left: 0;
+
+
+}
+.usred4{
+    height: 15px;
+    width: 370px;
+    background: #b12725;
+    position: absolute;
+    top: 90px;
+    left: 0;
+
+
+}
+.usred5{
+    height: 15px;
+    width: 370px;
+    background: #b12725;
+    position: absolute;
+    top: 120px;
+    left: 0;
+
+
+}
+.usred6{
+    height: 15px;
+    width: 370px;
+    background: #b12725;
+    position: absolute;
+    top: 150px;
+    left: 0;
+
+
+}
+.usred7{
+    height: 15px;
+    width: 370px;
+    background: #b12725;
+    position: absolute;
+    top: 180px;
+    left: 0;
+
+
+}
+.usimg{
+    height: 105px;
+    width: 170px;
+    background: url(../img/us.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+/* algeria */
+.algeria{
+    height: 200px;
+    width: 300px;
+    background: honeydew;
+    position: absolute;
+    top: 300px;
+    left: 10%;
+}
+.al1{
+    height: 200px;
+    width: 150px;
+    background: #047b3e;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.al2{
+    height: 200px;
+    width: 150px;
+    background: honeydew;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.alimg{
+   padding: 100px 75px ;
+    background: url(../img/algeria.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/* zimbabu flag  */
+
+.zimbabu{
+    top: 300px;
+    left: 50%;
+    height: 280px;
+    width: 450px;
+    background: #d40000;
+    position: absolute;
+}
+.z1{
+    top: 0;
+    left: 0;
+    height:40px;
+    width: 100%;
+    background: #006400;
+    position: absolute;
+}
+.z2{
+    top: 40px;
+    left: 0;
+    height:40px;
+    width: 100%;
+    background: #ffd200;
+    position: absolute;
+}
+.z3{
+    top: 80px;
+    left: 0;
+    height:40px;
+    width: 100%;
+    background: #d40000;
+    position: absolute;
+}
+.z4{
+    top: 120px;
+    left: 0;
+    height:40px;
+    width: 100%;
+    background: #000000;
+    position: absolute;
+}
+.z5{
+    top: 160px;
+    left: 0;
+    height:40px;
+    width: 100%;
+    background: #d40000;
+    position: absolute;
+}
+.z6{
+    top: 200px;
+    left: 0;
+    height:40px;
+    width: 100%;
+    background: #ffd200;
+    position: absolute;
+}
+.z7{
+    top: 240px;
+    left: 0;
+    height:40px;
+    width: 100%;
+    background: #006400;
+    position: absolute;
+}
+.ztri1{
+    top: 0;
+    left: 0;
+    height: 280px;
+    width: 190px;
+    background: #000000;
+    position: absolute;
+    clip-path: polygon(10% 0, 100% 50%, 10% 100%, 0 100%, 0 0);
+}
+.ztri2{
+    top: 0;
+    left: 0;
+    height: 280px;
+    width: 171px;
+    background: #ffffff;
+    position: absolute;
+    clip-path: polygon(0 0, 0% 100%, 100% 50%);
+}
+.zstar{
+    top: 50%;
+    left: 40%;
+    height: 120px;
+    width: 120px;
+    background: #d40000;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+.zimg{
+    top: 102px;
+    left: 45px;
+    height: 76px;
+    width: 56px;
+    background: url(../img/zlogo.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    position: absolute;
+}
+
+/* 20 flag css */
+

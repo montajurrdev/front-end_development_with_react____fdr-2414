@@ -1,0 +1,68 @@
+/* all common css start */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* all common css end */
+/* main part start */
+.monir{
+    margin: 0px 50px 50px 50px;
+    padding: 250px 0;
+    background-image: linear-gradient(to right top, #91f071, #a4e558, #b5da40, #c5ce27, #d3c10b);
+}
+/* main part end */
+
+/* 2nd part css start  */
+
+.bannerbg1{
+    margin: 50px 60px 100px 10px;
+    padding: 250px 0;
+    background: url(../img/1.jpg);
+    padding: 250px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.repeat{
+    margin: 50px 60px 100px 10px;
+    padding: 250px 0;
+    background: url(../img/2.jpg);
+    padding: 250px 0;
+   
+  
+    background-position: center;
+}
+.bannerbg2{
+    margin: 50px 60px;
+    padding: 250px 0;
+    background: url(../img/2.jpg);
+    padding: 250px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* 2nd part css end */
+/* 3rd part start  */
+.bannerbg{
+    margin: 0px 0px 50px;
+    padding: 300px 0px ;
+    /* height: 300px; */
+    background: url(../img/3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.bg{
+    
+   
+    background: url(../img/3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.overly{
+    background: rgba(144, 229, 88, 0.6) ;
+    padding: 400px 0;
+   
+}
+/* 3rd part end */

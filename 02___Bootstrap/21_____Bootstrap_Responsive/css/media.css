@@ -1,0 +1,80 @@
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {  }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {  }
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+        /* Header_Part */
+        .navbar-toggler i{
+            color: #b88e2f;
+            font-size: 30px;
+        }
+        .navbar-nav {
+     
+            background: teal;
+            padding: 20px;
+            text-align: center;
+            border-radius: 20px;
+    
+        }
+        .nav-link {
+    
+            color: white;
+            font-size: 20px;
+            padding: 10px !important;
+        }
+        /* Header_Part */
+ }
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    /* Header_Part */
+    .navbar-toggler i{
+        color: #b88e2f;
+        font-size: 30px;
+    }
+    .navbar-nav {
+ 
+        background: teal;
+        padding: 20px;
+        text-align: center;
+        border-radius: 20px;
+
+    }
+    .nav-link {
+
+        color: white;
+        font-size: 20px;
+        padding: 10px !important;
+    }
+    /* Header_Part */
+    /* Banner_Part */
+    #bannerpart {
+        padding: 100px 0 57px;
+        /* background: teal; */
+
+    }
+    .bannerCard h1{
+        font-size: 32px;
+    } 
+        /* Banner_Part */
+    #BrowsePart .heading h3 {
+        font-size: 27px;
+
+        color: red;
+    }
+    #BrowsePart .heading p {
+        font-size: 15px;
+
+        color: red;
+
+        padding-bottom: 17px;
+    }
+
+
+ }

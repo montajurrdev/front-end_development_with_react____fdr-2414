@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MFS--html,css,js</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+  </head>
+  <body>
+    <!-- Login Page Start -->
+    <div class="mobile" id="loginScrn">
+      <div class="container">
+        <div class="logodiv">
+          <img src="images/01.webp" alt="01.webp" class="logo" />
+        </div>
+
+        <div class="loginPart">
+          <h2>Login</h2>
+          <input
+            type="number"
+            placeholder="type your number"
+            id="loginNumber"
+          />
+          <input
+            type="password"
+            placeholder="type your password"
+            id="loginPass"
+          />
+          <button id="loginBtn">Login</button>
+          <p id="errorMsg">Something Wrong</p>
+        </div>
+      </div>
+    </div>
+    <!-- Login Page End -->
+
+    <!-- Dashboard Start -->
+    <div class="mobile" id="dashBoardScrn">
+      <div class="container">
+        <div class="logodiv">
+          <img src="images/01.webp" alt="01.webp" class="logo" />
+        </div>
+        <div class="balancePart">
+          <i class="fa-solid fa-bangladeshi-taka-sign"></i>
+          <h3>Current Balance: <span>500</span></h3>
+        </div>
+        <div class="rowflex">
+          <button onclick="cashIn()">Cash In</button>
+          <button onclick="cashOut()">Cash Out</button>
+        </div>
+      </div>
+    </div>
+    <!-- Dashboard End -->
+    <!-- Cash In Start -->
+    <div class="mobile" id="cashInPage">
+      <div class="container">
+        <div class="logodiv">
+          <img src="images/01.webp" alt="01.webp" class="logo" />
+        </div>
+        <div class="balancePart">
+          <i class="fa-solid fa-bangladeshi-taka-sign"></i>
+          <h3>Current Balance: <span id="currentBalance">500</span></h3>
+        </div>
+        <div class="loginPart">
+          <h2>Cash In</h2>
+          <input
+            type="number"
+            placeholder="type your Amount"
+            id="cashInAmount"
+          />
+          <input
+            type="password"
+            placeholder="type your password"
+            id="cashInPass"
+          />
+          <div class="rowflex">
+            <button id="cashInBtn">Cash In</button>
+            <button class="homeBtn" id="homeBtn">Back To Home</button>
+          </div>
+          <p id="cashInMsg">Something Wrong</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cash In End -->
+    <!-- Cash Out Start -->
+    <div class="mobile" id="cashOutPage">
+      <div class="container">
+        <div class="logodiv">
+          <img src="images/01.webp" alt="01.webp" class="logo" />
+        </div>
+        <div class="balancePart">
+          <i class="fa-solid fa-bangladeshi-taka-sign"></i>
+          <h3>Current Balance: <span id="currentBalanceC">500</span></h3>
+        </div>
+        <div class="loginPart">
+          <h2>Cash Out</h2>
+          <input
+            type="number"
+            placeholder="type your Amount"
+            id="cashOutAmount"
+          />
+          <input
+            type="password"
+            placeholder="type your password"
+            id="cashOutPass"
+          />
+         <div class="rowflex">
+           <button id="cashOutBtn">Cash Out</button>
+          <button class="homeBtn" id="homeBtnC" >Back To Home</button>
+         </div>
+          <p id="cashOutMsg">Something Wrong</p>
+        </div>
+      </div>
+    </div>
+    <!-- Cash Out End -->
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

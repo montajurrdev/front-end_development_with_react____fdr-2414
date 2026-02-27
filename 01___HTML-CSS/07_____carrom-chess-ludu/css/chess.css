@@ -1,0 +1,432 @@
+.main{
+    margin: 0 auto;
+    height: 1000px;
+    width: 1000px;
+    background: gainsboro;
+    position: relative;
+}
+.fullboard{
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 900px;
+    width: 900px;
+    background: wheat;
+    position: absolute;
+    border: 10px solid black;
+
+}
+.chess{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 800px;
+    width: 800px;
+    background: yellowgreen;
+    position: absolute;
+    border: 5px solid black;
+}
+
+/* All common css start  */
+.a{
+    height: 100px;
+    width: 100px;
+    background: wheat;
+    position: absolute;
+
+}
+.b{
+    height: 100px;
+    width: 100px;
+    background: rgb(194, 181, 0);
+    position: absolute;
+    text-align: center;
+
+}
+
+span{
+    position: absolute;
+    font-size: 90px;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+p {
+    position: absolute;
+    font-size: 97px;
+    top: -112px;
+    left: 4px;
+}
+.w{
+    color: #ffffff; 
+    
+}
+
+.topborder{
+
+    
+    height: 45px;
+    width: 100%;
+    background: wheat;
+    position: absolute;
+}
+.rightborder{
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 45px;
+    background: wheat;
+    position: absolute;
+}
+.bottomborder{
+    left: 0;
+    bottom: 0;
+    height: 45px;
+    width: 100%;
+    background: wheat;
+    position: absolute;
+}
+.leftborder{
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 45px;
+    background: wheat;
+    position: absolute;
+}
+b{
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    text-transform: uppercase;
+    
+}
+.topborder b,.bottomborder b{
+    top: 50%;
+    
+    transform: translate(-50%,-50%);
+
+}
+
+.ba{
+    left: 100px;
+
+}
+.bb{
+    left: 200px;
+}
+.bc{
+    left: 300px;
+}
+.bd{
+    left: 400px;
+}
+.be{
+    left: 500px;
+}
+.bf{
+    left: 600px;
+}
+.bg{
+    left: 700px;
+}
+.bh{
+    left: 800px;
+}
+
+.leftborder b,.rightborder b{
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.b8{
+    top: 100px;
+}
+.b7{
+    top: 200px;
+}
+.b6{
+    top: 300px;
+}
+.b5{
+    top: 400px;
+}
+.b4{
+    top: 500px;
+}
+.b3{
+    top: 600px;
+}
+
+.b2{
+    top: 700px;
+}
+.b1{
+    top: 800px;
+}
+
+/* All common css end  */
+
+
+
+.cell1{
+    top: 0;
+    left: 0;
+
+}
+
+.cell2{
+    top: 0;
+    left: 100px;
+    
+}
+.cell3{
+    top: 0;
+    left: 200px;
+}
+.cell4{
+    top: 0;
+    left: 300px;
+}
+.cell5{
+    top: 0;
+    left: 400px;
+}
+.cell6{
+    top: 0;
+    left: 500px;
+}
+.cell7{
+    top: 0;
+    left: 600px;
+}
+.cell8{
+    top: 0;
+    left: 700px;
+}
+.cell9{
+    top: 100px;
+    left: 0;
+}
+.cell10{
+    top: 100px;
+    left: 100px;
+}
+.cell11{
+    top: 100px;
+    left: 200px;
+}
+.cell12{
+    top: 100px;
+    left: 300px;
+}
+.cell13{
+    top: 100px;
+    left: 400px;
+}
+.cell14{
+    top: 100px;
+    left: 500px;
+}
+.cell15{
+    top: 100px;
+    left: 600px;
+}
+.cell16{
+    top: 100px;
+    left: 700px;
+}
+.cell17{
+    top: 200px;
+    left: 0;
+}
+.cell18{
+    top: 200px;
+    left: 100px;
+}
+.cell19{
+    top: 200px;
+    left: 200px;
+}
+.cell20{
+    top: 200px;
+    left: 300px;
+}
+.cell21{
+    top: 200px;
+    left: 400px;
+}
+.cell22{
+    top: 200px;
+    left: 500px;
+}
+.cell23{
+    top: 200px;
+    left: 600px;
+}
+.cell24{
+    top: 200px;
+    left: 700px;
+}
+
+.cell25{
+    top: 300px;
+    left: 0;
+}
+.cell26{
+    top: 300px;
+    left: 100px;
+}
+.cell27{
+    top: 300px;
+    left: 200px;
+}
+.cell28{
+    top: 300px;
+    left: 300px;
+}
+.cell29{
+    top: 300px;
+    left: 400px;
+}
+.cell30{
+    top: 300px;
+    left: 500px;
+}
+.cell31{
+    top: 300px;
+    left: 600px;
+}
+.cell32{
+    top: 300px;
+    left: 700px;
+}
+.cell33{
+    top: 400px;
+    left: 0;
+}
+.cell34{
+    top: 400px;
+    left: 100px;
+}
+.cell35{
+    top: 400px;
+    left: 200px;
+}
+.cell36{
+    top: 400px;
+    left: 300px;
+}
+.cell37{
+    top: 400px;
+    left: 400px;
+}
+.cell38{
+    top: 400px;
+    left: 500px;
+}
+.cell39{
+    top: 400px;
+    left: 600px;
+}
+.cell40{
+    top: 400px;
+    left: 700px;
+}
+.cell41{
+    top: 500px;
+    left: 0;
+}
+.cell42{
+    top: 500px;
+    left: 100px;
+}
+.cell43{
+    top: 500px;
+    left: 200px;
+}
+.cell44{
+    top: 500px;
+    left: 300px;
+}
+.cell45{
+    top: 500px;
+    left: 400px;
+}
+.cell46{
+    top: 500px;
+    left: 500px;
+}
+.cell47{
+    top: 500px;
+    left: 600px;
+}
+.cell48{
+    top: 500px;
+    left: 700px;
+}
+.cell49{
+    top: 600px;
+    left: 0;
+}
+.cell50{
+    top: 600px;
+    left: 100px;
+}
+.cell51{
+    top: 600px;
+    left: 200px;
+}
+.cell52{
+    top: 600px;
+    left: 300px;
+}
+.cell53{
+    top: 600px;
+    left: 400px;
+}
+.cell54{
+    top: 600px;
+    left: 500px;
+}
+.cell55{
+    top: 600px;
+    left: 600px;
+}
+.cell56{
+    top: 600px;
+    left: 700px;
+}
+.cell57{
+    top: 700px;
+    left: 0;
+}
+.cell58{
+    top: 700px;
+    left: 100px;
+}
+.cell59{
+    top: 700px;
+    left: 200px;
+}
+.cell60{
+    top: 700px;
+    left: 300px;
+}
+.cell61{
+    top: 700px;
+    left: 400px;
+}
+.cell62{
+    top: 700px;
+    left: 500px;
+}
+.cell63{
+    top: 700px;
+    left: 600px;
+}
+.cell64{
+    top: 700px;
+    left: 700px;
+}

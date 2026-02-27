@@ -1,0 +1,190 @@
+/* All common css start  */
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    position: absolute;
+    border-radius: 40px;
+}
+.boxs{
+    padding: 50px 50px;
+    background-color: rgb(148, 34, 255);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 30%;
+
+}
+.box1{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(26, 155, 76);
+    position: absolute;
+    border-radius: 40px;
+}
+.boxs1{
+    padding: 50px 50px;
+    background-color: rgb(136, 26, 112);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 30%;
+
+}
+/* All common css end  */
+.main{
+    margin: 0 auto;
+    height: 900px;
+    width: 900px;
+    background-color: burlywood;
+    position: relative;
+    border: 20px saddlebrown solid;
+    border-radius: 60px;
+}
+.center{
+    height: 200px;
+    width: 200px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* background: rgb(163, 119, 24); */
+    
+   
+}
+.center .box{
+    background: rgb(117, 77, 23);
+    border-radius: 50%;
+}
+.center .boxs{
+    background: tomato;
+    border-radius: 50%;
+}
+.clip-path1{
+    height: 100px;
+    width: 100px;
+    background: rgb(51, 27, 138);
+    position: absolute;
+    
+    clip-path: polygon(50% 0, 100% 0, 30% 30%, 0 100%, 0 50%, 15% 15%);
+    left: 0;
+    top: 0;
+    z-index: 1;
+  
+}
+.clip-path2{
+    height: 100px;
+    width: 100px;
+    background: rgb(51, 27, 138);
+    position: absolute;
+    clip-path: polygon(50% 0, 100% 0, 30% 30%, 0 100%, 0 50%, 15% 15%);
+    top: 0;
+    right: 0;
+    transform: rotate(90deg);
+    z-index: 1;
+   
+}
+.clip-path3{
+    height: 100px;
+    width: 100px;
+    background: rgb(51, 27, 138);
+    position: absolute;
+    clip-path: polygon(50% 0, 100% 0, 30% 30%, 0 100%, 0 50%, 15% 15%);
+    right: 0;
+    bottom: 0;
+    transform: rotate(180deg);
+    z-index: 1;
+    
+   
+
+}
+.clip-path4{
+    height: 100px;
+    width: 100px;
+    background: rgb(51, 27, 138);
+    position: absolute;
+    clip-path: polygon(50% 0, 100% 0, 30% 30%, 0 100%, 0 50%, 15% 15%);
+    left: 0;
+    bottom: 0;
+    transform: rotate(270deg);
+    z-index: 1;
+    
+     
+}
+.corner1{
+    left: 0;
+    right: 0;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+
+}
+.corner2{
+    top: 0;
+    right: 0;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+
+}
+.corner3{
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+
+}
+.corner4{
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+
+}
+.middle1{
+
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    height: 200px;
+    width: 200px;
+}
+.middle2{
+    right: 0;
+    top: 50%;
+
+
+    transform: translateY(-50%);
+    position: absolute;
+    height: 200px;
+    width: 200px;
+}
+.middle3{
+
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    height: 200px;
+    width: 200px;
+}
+.middle4{
+
+    left: 0;
+    top: 50%;
+    
+    transform: translateY(-50%);
+    position: absolute;
+    height: 200px;
+    width: 200px;
+}

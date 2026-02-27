@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MFS</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Playwrite+DE+VA:wght@100..400&family=Playwrite+IT+Moderna&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+
+    <link rel="stylesheet" href="src/output.css"/>
+  </head>
+  <body>
+    <div class="max-w-[1320px] m-auto flex justify-center" id="loginScrn">
+      <div class="mockup-phone">
+        <div class="mockup-phone-camera"></div>
+        <div class="mockup-phone-display text-white grid place-content-center">
+          <!-- Login Page Start -->
+          <div class="m-auto mb-9">
+            <img
+              src="img/01.webp"
+              alt="01.webp"
+              class="w-[200px] h-[200px] rounded-[40px]"
+            />
+          </div>
+          <!-- From Uiverse.io by themrsami -->
+          <div
+            class="h-96 flex items-center justify-center bg-gradient-to-r from-purple-400 via-pink-500 to-red-500"
+          >
+            <div class="relative">
+              <div
+                class="absolute -top-2 -left-2 -right-2 -bottom-2 rounded-lg bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 shadow-lg animate-pulse"
+              ></div>
+              <div
+                id="form-container"
+                class="bg-white p-16 rounded-lg shadow-2xl w-80 relative z-10 transform transition duration-500 ease-in-out"
+              >
+                <h2
+                  id="form-title"
+                  class="text-center text-3xl font-bold mb-10 text-gray-800"
+                >
+                  Login
+                </h2>
+                <form class="space-y-5">
+                  <input
+                    class="w-full h-12 border border-gray-800 px-3 rounded-lg text-black"
+                    placeholder="Number"
+                    id="loginNumber"
+                    name=""
+                    type="number"
+                  />
+                  <input
+                    class="w-full h-12 border border-gray-800 px-3 rounded-lg text-black"
+                    placeholder="4 digit Password"
+                    id="loginPass"
+                    name=""
+                    type="password"
+                  />
+
+                  <button
+                    id="loginBtn"
+                    class="w-full h-12 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                  >
+                    Sign in
+                  </button>
+                  <!-- <a class="text-blue-500 hover:text-blue-800 text-sm" href="#"
+                    >Forgot Password?</a
+                  > -->
+                  <div class="" id="loginMsg">
+                    <p class="text-red-500 text-right hidden" id="errorMsg">
+                      Incorrect
+                    </p>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+
+          <!-- Login Page End -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Deshboard Screen Start -->
+
+    <div class="max-w-[1320px] m-auto flex justify-center">
+      <div class="mockup-phone hidden" id="deshboard">
+        <div class="mockup-phone-camera"></div>
+        <div class="mockup-phone-display text-white grid place-content-center">
+          <div class="">
+            <div class="flex items-center">
+              <img
+                src="img/01.webp"
+                alt="01.webp"
+                class="w-[100px] h-[100px] rounded-[40px]"
+              />
+              <div>
+                <h1 class="text-[20px] font-bold">
+                  Current Balence: <span id="mainBalence">500</span>
+                </h1>
+              </div>
+            </div>
+            <div >
+              <fieldset class="fieldset">
+                <legend class="fieldset-legend text-white">CashOut</legend>
+                <input
+                  type="number"
+                  class="input text-black"
+                  placeholder="amount"
+                  id="cAmountInt"
+                />
+                <input
+                  type="password"
+                  class="input text-black"
+                  placeholder="Type password"
+                  id="password"
+                />
+
+                <button class="btn btn-success" id="CashOutBtn">
+                  Cash Out
+                </button>
+              </fieldset>
+              <div>
+                <p class="text-red-500 text-right hidden" id="incorrect">
+                  Incorrect
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- From Uiverse.io by themrsami -->
+
+          <!-- Deshboard Screen End -->
+        </div> 
+      </div>
+    </div>
+
+    <!-- Js link Start  -->
+    <script src="js/script.js"></script>
+    <!-- Js link End  -->
+  </body>
+</html>

@@ -1,0 +1,19 @@
+{
+    "data":[
+        {
+            "name":"Montajur Rahman",
+            "age":"22",
+            "skill":"Front-end Developer"
+        },
+        {
+            "name":"Farhad",
+            "age": "23",
+            "skill":"Front-end Developer"
+        },
+        {
+            "name":"Fuyad",
+            "age":"21",
+            "skill":"Front-end Developer"
+        }
+    ]
+}
